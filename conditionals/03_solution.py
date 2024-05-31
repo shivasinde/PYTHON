@@ -1,5 +1,9 @@
 Marks = int(input("Enter your Marks : "))
 
+if Marks >= 101 :
+  print("Please veryfi your Marks")
+  exit()
+
 if Marks > 90:
   print("A Grade")
 elif Marks > 80:
